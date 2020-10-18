@@ -7,6 +7,7 @@
   --lightgrey: #e5e5e5;
   --whitegrey: #f5f4fa;
   --borders-color: #eeeeee;
+  --contacts-footer: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -24,6 +25,7 @@ main {
 .link {
   color: var(--black);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .link:hover,
@@ -54,12 +56,13 @@ header {
 }
 
 .contacts-footer {
-  color: var(--grey);
+  color: var(--contacts-footer)
   text-decoration: none;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contacts-footer:hover,
@@ -69,15 +72,25 @@ header {
 
 .web {
   color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .studio {
   color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .logo {
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -121,6 +134,7 @@ header {
 }
 
 .description {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -162,6 +176,7 @@ header {
 }
 
 .team-name-prof {
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -210,6 +225,7 @@ footer {
 .project-description {
   width: 322px;
   height: 30px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -218,4 +234,10 @@ footer {
 
 .adress {
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
 }
+
