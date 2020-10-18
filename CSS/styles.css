@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -214,4 +214,8 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey);
+}
+
+.adress {
+  font-style: normal;
 }
